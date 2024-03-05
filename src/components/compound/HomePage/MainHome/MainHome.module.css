@@ -1,0 +1,312 @@
+.MainHome {
+  background-image: url("https://res.cloudinary.com/do6tjvges/image/upload/v1675086830/docs/banner_section_background_qrv8qq.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100vw;
+  /* height: 100vh; */
+}
+.navbar_wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.container {
+  /* background-color: rgb(126, 125, 125); */
+  /* height: 90vh; */
+  padding-top: 50px;
+  padding-bottom: 138px;
+
+  /* border: 2px solid rgb(47, 213, 255); */
+}
+.middle_content {
+  /* background-color: rgb(58, 46, 46); */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  /* height: 70%; */
+  /* border: 2px solid greenyellow; */
+}
+
+.txt_all {
+  width: 420px;
+  /* background-color: darkgrey; */
+  /* border: 2px solid rgb(54, 41, 236); */
+  margin-right: 15px;
+}
+.txt_all > h5 {
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #ffffff;
+  letter-spacing: 3.1px;
+  margin-bottom: 12px;
+}
+.txt_all > h1 {
+  font-family: "Playfair Display", serif;
+  font-size: 55px;
+  line-height: 65px;
+  font-weight: 700;
+  margin-bottom: 18px;
+  color: #ffffff;
+}
+.txt_all > p {
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 400;
+  margin-bottom: 15px;
+  color: #ffffff;
+}
+
+.btn_wrapper {
+    position: relative;
+}
+@keyframes float_img{
+  0%{transform: translateY(0px);}
+  50%{transform: translateY(-20px);}
+  100%{transform: translateY(0px);}
+}
+.btn_wrapper::after {
+    content: "\f175";
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    font-size: 70px;
+    color: white;
+    position: absolute;
+    top: 170px;
+    left: 0;
+    animation: float_img 6s ease-in-out infinite ;
+}
+
+.btn_wrapper > a {
+  font-size: 18px;
+  line-height: 18px;
+  padding: 20px 30px;
+  text-decoration: none;
+  position: relative;
+  font-size: 22px;
+  line-height: 22px;
+  font-weight: 500;
+  padding: 24px 40px;
+  text-align: center;
+  color: #413625;
+  display: inline-block;
+  background-color: #e1ccad;
+  border-radius: 35px 0px 35px 0px;
+  transition: all 0.3s ease-in-out;
+  overflow: hidden;
+}
+@keyframes banner_float {
+  0%{transform: translateX(0px);}
+  50%{transform: translateX(-20px);}
+  100%{transform: translateX(0px);}
+}
+.img_banner {
+  /* background-color: white; */
+  /* border: 2px solid rgb(255, 92, 47); */
+  /* width: 680px; */
+  width: 680px;
+  animation: banner_float 6s ease-in-out  infinite  ;
+}
+.img_banner > img {
+  /* background-color: white; */
+  /* border: 2px solid rgb(78, 47, 255); */
+  width: 100%;
+}
+
+/* @media only screen and (max-width: 1150px) {
+  .middle_content {
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+} */
+
+@media only screen and (max-width: 1200px) {
+  .container {
+    padding-top: 50px;
+    padding-bottom: 100px;
+  }
+
+  .img_banner {
+    width: 470px;
+  }
+  .txt_all > h5 {
+    font-size: 18px;
+    line-height: 26px;
+    margin-bottom: 0;
+  }
+  .txt_all > h1 {
+    margin-bottom: 15px;
+    font-size: 42px;
+    line-height: 62px;
+  }
+  .txt_all > p {
+    font-size: 18px;
+    line-height: 26px;
+    margin-bottom: 25px;
+    padding-right: 0;
+  }
+  .btn_wrapper > a {
+    font-size: 20px;
+    line-height: 20px;
+    padding: 22px 32px;
+  }
+
+  .btn_wrapper::after {
+
+    font-size: 65px;
+    line-height: 65px;
+    top: 100px;
+    left: 0;
+}
+}
+@media only screen and (max-width: 990px) {
+    .container {
+        /* padding-top: 90px;
+        padding-bottom: 100px; */
+      }
+
+  .img_banner {
+    width: 360px;
+    /* background-color: aquamarine; */
+    padding-left: 20px;   /*i text update*/
+  }
+  .txt_all{
+    padding-top: 40px;  /*i text update*/
+    width: 360px;    /*i text update*/
+  }
+
+  .txt_all{
+    margin-right: 0px;
+  }
+  .txt_all > h5 {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .txt_all > h1 {
+    font-size: 36px;
+    line-height: 56px;
+  }
+  .txt_all > p {
+    margin-bottom: 20px;
+    margin-left: 0;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .btn_wrapper > a {
+    font-size: 18px;
+    line-height: 18px;
+    padding: 20px 25px;
+  }
+
+  .btn_wrapper::after {
+
+    font-size: 45px;   
+    line-height: 45px;
+    top: 90px;   /*i text update*/
+    left: 0;
+}
+}
+
+@media only screen and (max-width: 768px) {
+    .container {
+        padding-top: 65px;
+        padding-bottom: 70px;
+      }
+
+  .middle_content {
+    flex-direction: column;
+    /* align-items: center;
+    justify-content: space-between; */
+    
+  }
+  .txt_all {
+    text-align: center;
+    width: 90vw;
+    /* border: 2px solid greenyellow; */
+    padding-top: 0px;   /*i text update*/
+    padding-bottom: 70px;
+    margin-right: 0px;
+  }
+  .img_banner {
+    width: 90vw;
+    padding-left: 20px;   /*i text update*/
+  }
+
+  .txt_all > h5 {
+    font-size: 14px;
+    line-height: 22px;
+  }
+  .txt_all > h1 {
+    margin-bottom: 10px;
+    padding: 0 55px;
+    font-size: 32px;
+    line-height: 50px;
+  }
+  .txt_all > p {
+    margin-bottom: 18px;
+    padding: 0 35px;
+    font-size: 14px;
+    line-height: 22px;
+  }
+  .btn_wrapper > a {
+    font-size: 16px;
+    line-height: 16px;
+    padding: 18px 22px;
+  }
+
+  .btn_wrapper::after {
+
+    font-size: 42px;
+    line-height: 42px;
+    top: 80px;
+    left: 47%;
+    
+}
+}
+@media only screen and (max-width: 575px) {
+    .container {
+        padding-top: 55px;
+        padding-bottom: 60px;
+      }
+      .img_banner {
+        
+        padding-left: 15px;   /*i text update*/
+      }
+  .txt_all > h5 {
+    font-size: 14px;
+    line-height: 22px;
+  }
+  .txt_all > h1 {
+    padding: 0 20px;
+    margin-left: 0;
+    font-size: 28px;
+    line-height: 44px;
+  }
+  .txt_all > p {
+    margin-bottom: 15px;
+    padding: 0 10px;
+  }
+  .btn_wrapper > a {
+    font-size: 14px;
+    line-height: 14px;
+    padding: 16px 20px;
+  }
+}
+@media only screen and (max-width: 426px) {
+  .container {
+  }
+
+  .txt_all > h5 {
+  }
+  .txt_all > h1 {
+    padding: 0;
+  }
+  .txt_all > p {
+    padding: 0;
+  }
+}

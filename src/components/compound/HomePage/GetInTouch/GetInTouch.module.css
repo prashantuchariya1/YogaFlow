@@ -1,0 +1,608 @@
+.GetInTouch {
+    /* background-color: bisque; */
+    /* border: 2px solid red; */
+    
+    
+    
+  }
+  
+  .container {
+    width: 100vw;
+    background-color: burlywood;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 806px;
+    /* justify-content: flex-end; */
+    /* height: 80vh; */
+    position: relative;
+    
+}
+  .container::after{
+    background: url('https://res.cloudinary.com/do6tjvges/image/upload/v1675283273/docs/get_in_touch_image_tc6y7d.jpg');
+    content: "";
+    width: 50%;
+    height: 806px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 1;
+    
+}
+
+.flex_row{
+  display: flex;
+    flex-direction: row;
+    /* justify-content: space-around; */
+    align-items: center;
+    /* border: 2px solid blue; */
+    /* background-color: #fff; */
+    width: 1140px;
+    
+  
+}
+.left_content {
+  background-color: burlywood;
+  /* padding-right: 330px; */
+  position: relative;
+  z-index: 2;
+  /* background-color: rgb(247, 247, 247); */
+  height: 806px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+
+  /* padding: 0 40px; */
+}
+
+.txt_all{
+  /* background-color: aquamarine; */
+}
+.txt_all > h5 {
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #764979;
+  letter-spacing: 3.1px;
+  margin-bottom: 12px;
+}
+.txt_all > h2 {
+  font-family: "Playfair Display", serif;
+  font-size: 48px;
+  line-height: 55px;
+  font-weight: 700;
+  /* margin-bottom: 18px; */
+  color: #242424;
+}
+
+.form {
+  margin-top: 32px;
+  /* background-color: cornflowerblue; */
+}
+.form_tag {
+  /* background-color: aquamarine; */
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+}
+.form_tag > * input {
+  width: 100%;
+  border: none;
+  /* border-radius: 5px; */
+  
+}
+.form_tag > * input {
+  font-family: 'Karla', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  background-color: white;
+  color: #6b6b6b;
+  padding-left: 20px;
+
+  
+}
+
+.message{
+  padding-bottom: 50px;
+  
+}
+
+
+.row1 {
+  height: 56px;
+}
+
+.row2 {
+  height: 56px;
+}
+
+.row3 {
+  height: 115px;
+  
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  margin: 10px 0px;
+}
+
+.row > input{
+  
+  
+}
+
+.row1 > input {
+}
+
+.fname {
+  margin-right: 5px;
+}
+.lname {
+  margin-left: 5px;
+}
+
+.pno {
+  margin-right: 5px;
+}
+.email {
+  margin-left: 5px;
+}
+
+
+.btn_wrapper > button {
+  font-size: 22px;
+  line-height: 22px;
+  font-weight: 500;
+  padding: 24px 40px;
+  text-align: center;
+  color: white;
+  display: inline-block;
+  background-color: #764979;
+  border-radius: 35px 0px 35px 0px;
+  transition: all 0.3s ease-in-out;
+  outline: none;
+  border: none;
+  overflow: hidden;
+  margin-bottom: 10px;
+  margin-top: 42px;
+
+  
+}
+
+.empty_flex_container_1{
+  height: 806px;
+  width: 35px;
+  background-color: burlywood;
+  position: relative;
+  z-index: 2;
+  
+}
+
+.img_banner {
+  /* background-color: blueviolet; */
+  
+  position: relative;
+  z-index: 2;
+  padding-left: 380px;
+}
+.empty_flex_container_2{
+  height: 806px;
+  width: 40px;
+  background-color: burlywood;
+  position: relative;
+  z-index: 2;
+  
+  
+}
+
+
+
+
+
+@media only screen and (max-width: 1400px) {
+  .container::after{
+    
+    width: 58%;
+
+}
+
+.img_banner {
+  
+  padding-left: 270px;
+}
+
+}
+
+@media only screen and (max-width: 1200px) {
+  .flex_row{
+    
+      width: 960px;
+      
+    
+  }
+  .container::after{
+    
+    width: 68%;
+
+}
+
+  .form_tag {
+    
+    width: 450px;
+  }
+
+  .txt_all > h5 {
+    font-size: 18px;
+    line-height: 26px;
+    margin-bottom: 8px;
+  }
+  .txt_all > h2 {
+    font-size: 40px;
+    line-height: 50px;
+  }
+
+  .form {
+    margin-top: 28px;
+  }
+
+
+  .row1 {
+    height: 52px;
+  }
+  
+  .row2 {
+    height: 52px;
+  }
+  
+  .row3 {
+    height: 110px;
+    
+  }
+
+  
+.btn_wrapper > button {
+  font-size: 20px;
+  line-height: 20px;
+  padding: 22px 35px;
+  margin-top: 35px;
+
+  
+}
+
+
+.empty_flex_container_1{
+  height: 806px;
+  width: 35px;
+  background-color: burlywood;
+  
+}
+
+
+.img_banner {
+  
+  padding-left: 120px;
+}
+
+  
+
+  
+
+}
+
+
+@media only screen and (max-width: 990px) {
+  .flex_row{
+    
+    width: 720px;
+    
+  
+}
+.container::after{
+  
+  width: 80%;
+
+}
+
+.form_tag {
+  
+  width: 330px;
+}
+
+.txt_all > h5 {
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 5px;
+}
+.txt_all > h2 {
+  font-size: 34px;
+  line-height: 44px;
+}
+
+.form {
+  margin-top: 22px;
+}
+
+
+.row1 {
+  height: 52px;
+}
+
+.row2 {
+  height: 52px;
+}
+
+.row3 {
+  height: 110px;
+  
+}
+
+
+.btn_wrapper > button {
+  font-size: 18px;
+  line-height: 18px;
+  padding: 20px 32px;
+margin-top: 28px;
+
+
+}
+
+
+.empty_flex_container_1{
+height: 806px;
+width: 15px;
+background-color: burlywood;
+
+}
+
+.img_banner {
+  
+  padding-left: 50px;
+}
+
+
+
+
+}
+@media only screen and (max-width: 768px) {
+  .flex_row{
+    display: flex;
+      flex-direction: column;
+      /* justify-content: space-around; */
+      /* align-items: center; */
+      /* border: 2px solid blue; */
+      /* background-color: #fff; */
+      width: 1140px;
+      
+    
+  }
+
+  .container {
+    
+    height: auto;
+    
+    
+}
+.empty_flex_container_1{
+  display: none;
+  
+  }
+.empty_flex_container_2{
+  display: none;
+  
+  }
+
+  .container::after{
+    background: url('https://res.cloudinary.com/do6tjvges/image/upload/v1675283273/docs/get_in_touch_image_tc6y7d.jpg');
+    content: "";
+    
+    
+    z-index: 5;
+    width: 100%;
+    display: block;
+    
+    background-position: center;
+    
+    height: 806px;
+    position: absolute;
+    right: 0;
+    top: 522px;
+    
+    
+}
+
+.left_content {
+  text-align: center;
+  height: auto;
+  margin-top: 55px;
+
+  
+}
+
+.form_tag {
+  
+  width: 510px;
+}
+.txt_all > h5 {
+  font-size: 14px;
+    line-height: 22px;
+  margin-bottom: 5px;
+}
+.txt_all > h2 {
+  display: inline-block;
+  font-size: 28px;
+  line-height: 38px;
+}
+.heading1{
+  padding-right: 7px;
+}
+
+.img_banner {
+  /* background-color: blueviolet; */
+  
+  position: relative;
+  z-index: 6;
+  padding-left: 0px;
+  padding-top: 300px;
+}
+
+.form_tag > * input {
+  
+  padding-left: 15px;
+  font-size: 14px;
+    line-height: 20px;
+
+  
+}
+.message{
+  padding-top: 10px;
+
+  
+}
+
+
+.row1 {
+  height: 44px;
+}
+
+.row2 {
+  height: 44px;
+}
+
+.row3 {
+  height: 76px;
+  
+  
+}
+
+.btn_wrapper > button {
+  
+  padding: 18px 30px;
+
+
+  
+}
+
+}
+@media only screen and (max-width: 575px) {
+  .flex_row{
+    height: auto;
+  }
+
+  .left_content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 55px;
+  }
+
+  .form{
+    height: auto;
+    background-color: transparent;
+  }
+  
+  .form_tag{
+    height: auto;
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    /* background-color: brown; */
+    overflow: hidden;
+  }
+  .form_tag > * input {
+    width: 100%;
+    border: none;
+    padding: 0;
+    
+    /* border-radius: 5px; */
+    
+  }
+  /* .form_tag > * input::placeholder {
+   padding-left: 15px;
+    
+    
+  } */
+  .form_tag > * input {
+    padding-left: 15px;
+     /* border-radius: 5px; */
+  }
+
+  .row1{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    padding: 0px;
+    margin: 0px;
+  }
+  .row2{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    padding: 0px;
+    margin: 0px;
+  }
+  .row3{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    padding: 0px;
+    margin: 0px;
+  }
+
+  .fname{
+    height: 44px;
+    margin-bottom: 10px;
+    width: 100%;
+  }
+
+  .lname{
+    height: 44px;
+    margin-left: 0;
+    margin-bottom: 10px;
+  }
+
+  .pno{
+    height: 44px;
+    margin-bottom: 10px;
+  }
+
+  .email{
+    height: 44px;
+    margin-left: 0;
+    margin-bottom: 10px;
+  }
+
+
+  .message{
+    height: 80px;
+    
+    
+  }
+  /* .message::placeholder{
+    padding: 10px;
+    
+    
+  } */
+
+  .btn_wrapper > button{
+    margin-top: 25px;
+  }
+
+
+  
+  .container::after{
+    
+    top: 555px;
+    
+    
+}
+  
+
+}
+@media only screen and (max-width: 426px) {
+  
+
+}

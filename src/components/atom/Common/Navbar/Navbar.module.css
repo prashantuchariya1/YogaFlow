@@ -1,0 +1,128 @@
+.Navbar {
+  /* background-color: #101110; */
+  /* height: 8vh; */
+  /* width: 70vw; */
+}
+.container {
+  width: 1140px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  /* border: 2px solid greenyellow; */
+  padding-top: 42px;
+}
+
+.nav_link_div > a {
+  font-family: "Playfair Display", serif;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.logo {
+  width: 216px;
+}
+.logo > img {
+  width: 100%;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  width: 610px;
+  justify-content: space-between;
+  align-items: center;
+  /* border: 2px solid black; */
+}
+.nav_link_div {
+  /* margin: 0px auto; */
+  /* background-color: rgb(114, 165, 210); */
+}
+.nav_link {
+  text-decoration: none;
+  color: white;
+  /* background-color: rgb(114, 210, 140); */
+}
+
+.btn_wrapper {
+}
+.btn_wrapper > a {
+  font-size: 18px;
+  line-height: 18px;
+  padding: 20px 30px;
+  text-decoration: none;
+  position: relative;
+  font-size: 20px;
+  line-height: 22px;
+  font-weight: 500;
+  padding: 20px 34px;
+  text-align: center;
+  color: #413625;
+  display: inline-block;
+  background-color: #e1ccad;
+  border-radius: 35px 0px 35px 0px;
+  transition: all 0.3s ease-in-out;
+  overflow: hidden;
+}
+
+@media only screen and (max-width: 768px) {
+  .Navbar {
+    display: none;
+  }
+}
+
+/* Reesponsive Breakpoints */
+
+@media only screen and (max-width: 1200px) {
+  .container {
+    width: 960px;
+    padding-top: 35px;
+  }
+  .nav_link_div > a {
+    font-size: 16px;
+  }
+
+  .logo {
+    width: 200px;
+  }
+
+  .buttons {
+    width: 560px;
+  }
+  .btn_wrapper > a {
+    font-size: 20px;
+    line-height: 20px;
+    padding: 20px 30px;
+  }
+}
+@media only screen and (max-width: 990px) {
+  .container {
+    width: 765px;
+    padding-top: 30px;
+  }
+
+  .logo {
+    width: 180px;
+  }
+
+  .buttons {
+    width: 510px;
+  }
+
+  .btn_wrapper > a {
+    font-size: 16px;
+    line-height: 18px;
+    padding: 16px 21px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .container {
+    width: 540px;
+  }
+
+  .btn_wrapper > a {
+    font-size: 16px;
+    line-height: 16px;
+    padding: 16px 20px;
+  }
+}

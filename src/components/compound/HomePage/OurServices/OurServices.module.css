@@ -1,0 +1,185 @@
+.OurServices {
+}
+
+.container {
+  padding: 120px 0 130px 0;
+}
+.row {
+  /* background-color: rgb(21, 231, 102); */
+  /* height: 100vh; */
+  width: 1140px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  /* border: 2px solid greenyellow; */
+  /* padding: 120px 0; */
+}
+
+@keyframes float_all_cards {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+.all_cards {
+  display: flex;
+  flex-direction: row;
+  flex-flow: wrap;
+  animation: float_all_cards 6s ease-in-out infinite;
+  /* justify-content: space-between; */
+  /* margin: 0px auto; */
+}
+
+@keyframes scale_card {
+  from {
+    transform: translateY(0px);
+    
+  }
+  to {
+    transform: translateY(-10px);
+    
+  }
+}
+.card {
+  padding: 15px;
+}
+
+.card:hover{
+    animation: scale_card  0.5s  ease-in-out  forwards;
+}
+.txt_all {
+  /* height: 50%; */
+  /* background-color: rgb(218, 134, 134); */
+  text-align: center;
+}
+.txt_all > h5 {
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #764979;
+  letter-spacing: 3.1px;
+  margin-bottom: 12px;
+}
+.txt_all > h2 {
+  font-family: "Playfair Display", serif;
+  font-size: 48px;
+  line-height: 55px;
+  font-weight: 700;
+  margin-bottom: 18px;
+  color: #242424;
+  padding: 0 140px;
+}
+.txt_all > p {
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 400;
+  margin-bottom: 15px;
+  color: #6b6b6b;
+  padding: 0 95px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .container {
+    padding: 95px 0 100px 0;
+  }
+  .row {
+    width: 960px;
+  }
+  .txt_all > h5 {
+    font-size: 18px;
+    line-height: 26px;
+    margin-bottom: 5px;
+  }
+  .txt_all > h2 {
+    font-size: 40px;
+    line-height: 50px;
+    margin-bottom: 15px;
+    padding: 0 90px;
+  }
+  .txt_all > p {
+    font-size: 18px;
+    line-height: 26px;
+    margin-bottom: 30px;
+    padding: 0 110px;
+  }
+}
+@media only screen and (max-width: 990px) {
+  .container {
+    padding: 65px 0 40px 0;
+  }
+  .row {
+    width: 720px;
+  }
+
+  .txt_all > h5 {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .txt_all > h2 {
+    font-size: 34px;
+    line-height: 44px;
+    margin-bottom: 10px;
+  }
+  .txt_all > p {
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 25px;
+    padding: 0 0px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .container {
+    padding: 55px 0 30px 0;
+  }
+  .row {
+    width: 540px;
+  }
+
+  .txt_all > h5 {
+    font-size: 14px;
+    line-height: 22px;
+  }
+  .txt_all > h2 {
+    font-size: 28px;
+    line-height: 38px;
+    margin-bottom: 8px;
+    padding: 0 70px;
+  }
+  .txt_all > p {
+    font-size: 14px;
+    line-height: 22px;
+    margin-bottom: 25px;
+    padding: 0 0px;
+  }
+}
+@media only screen and (max-width: 575px) {
+  .row {
+    width: 90vw;
+  }
+
+  .txt_all > h5 {
+    font-size: 14px;
+    line-height: 22px;
+  }
+  .txt_all > h2 {
+    font-size: 22px;
+    line-height: 32px;
+    margin-bottom: 8px;
+    padding: 0 0px;
+  }
+  .txt_all > p {
+    font-size: 14px;
+    line-height: 22px;
+    margin-bottom: 20px;
+    padding: 0 0px;
+  }
+}
+@media only screen and (max-width: 426px) {
+}

@@ -1,0 +1,25 @@
+.CreateAccount{
+    /* width: 100vw; */
+    /* height: 100vh; */
+    /* background-color: aquamarine; */
+    /* background-color:#f3f3f3; */
+    /* border: 2px solid red; */
+}
+
+.container{
+    width: 100vw;
+    /* height: 100vh; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+    
+    /* border: 2px solid rgb(21, 126, 35); */
+}
+.cardWrapper{
+    
+    /* border: 2px solid rgb(49, 21, 126); */
+    
+
+}

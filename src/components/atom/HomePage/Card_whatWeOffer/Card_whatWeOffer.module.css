@@ -1,0 +1,369 @@
+.container {
+  background-color: white;
+  /* border: 2px solid black; */
+  border-radius: 70px 0 70px 0;
+
+  /* margin: 50px 10px; */
+  /* padding: 0 10px; */
+  margin: 0 10px;
+  box-shadow: 1px 1px 50px rgb(0 0 0 / 5%);
+}
+
+.card_upper_portion {
+  /* background-color:crimson; */
+  position: relative;
+}
+@keyframes opacity_img {
+  from{opacity: 1;}
+  to{opacity: 0.8;}
+}
+.img_top {
+  
+}
+.container:hover .img_top{
+  animation: opacity_img 0.3s ease-in-out forwards ;
+
+}
+.img_top > img {
+  width: 100%;
+}
+
+
+.logo_top {
+  background-color: #764979;
+  border-radius: 100%;
+  text-align: center;
+  height: 118px;
+  width: 118px;
+  margin: 0px auto;
+  /* padding: 28px 28px; */
+  border: 4px solid white;
+  transition: all 0.3s ease-in-out;
+  position: absolute;
+  /* top: 130px; */
+  left: 0;
+  right: 0;
+  bottom: -60px;
+}
+.container:hover .logo_top{
+  background-color: #e1ccad;
+}
+.logo_top > img {
+  padding-top: 30px;
+}
+
+.card_lower_portion {
+  /* background-color: aquamarine; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 70px;
+  padding-bottom: 30px;
+}
+
+.text_all_description {
+  /* background-color: chartreuse; */
+  margin-bottom: 16px;
+  
+}
+
+.heading {
+  text-align: center;
+  font-family: "Playfair Display", serif;
+  font-size: 22px;
+  line-height: 55px;
+  font-weight: 700;
+}
+.description_line {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.description_line > i {
+  color: #764979;
+  padding-top: 3px;
+}
+.line {
+  margin-left: 5px;
+  font-size: 18px;
+  line-height: 32px;
+  color: #6b6b6b;
+  font-weight: 400;
+}
+
+.dollar {
+  font-family: "Playfair Display", serif;
+  font-size: 48px;
+  line-height: 55px;
+  font-weight: 700;
+  color: #764979;
+}
+.per_month {
+  font-family: "Playfair Display", serif;
+  font-size: 16px;
+  line-height: 55px;
+  font-weight: 400;
+  color: #6b6b6b;
+  /* margin-left: 5px; */
+}
+
+.prise_text_wrapper {
+  /* background-color: coral; */
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.btn_wrapper {
+  padding-top:15px;
+  transition: all 0.3s ease-in-out;
+}
+.btn_wrapper > a {
+  font-size: 18px;
+  line-height: 18px;
+  padding: 20px 30px;
+  text-decoration: none;
+  position: relative;
+  font-size: 20px;
+  line-height: 22px;
+  font-weight: 500;
+  padding: 24px 40px;
+  text-align: center;
+  color: #413625;
+  display: inline-block;
+  background-color: #e1ccad;
+  border-radius: 35px 0px 35px 0px;
+  
+  overflow: hidden;
+}
+
+.container:hover .btn_wrapper{
+  transform: translateY(-15px);
+}
+@media only screen and (max-width: 1200px) {
+  .container {
+    
+  }
+
+  .img_top {
+    width: 290px;
+  }
+
+  .logo_top {
+    width: 100px;
+    height: 100px;
+    bottom: -50px;
+  }
+  .logo_top > img {
+    width: 48px;
+    padding-top: 28px;
+  }
+
+  .card_lower_portion {
+    /* background-color: aquamarine; */
+
+    padding-top: 55px;
+    padding-bottom: 30px;
+  }
+
+  .text_all_description {
+    /* background-color: chartreuse; */
+    margin-bottom: 16px;
+  }
+
+  .heading {
+    font-size: 18px;
+    line-height: 45px;
+  }
+
+  .description_line > i {
+    color: #764979;
+    padding-top: 3px;
+  }
+  .line {
+    margin-left: 5px;
+
+    font-size: 16px;
+    line-height: 30px;
+  }
+
+  .dollar {
+    font-size: 40px;
+    line-height: 50px;
+  }
+  .per_month {
+    font-size: 16px;
+    line-height: 50px;
+    /* margin-left: 5px; */
+  }
+
+  .prise_text_wrapper {
+    /* background-color: coral; */
+
+    margin-bottom: 12px;
+  }
+
+  .btn_wrapper {
+  }
+  .btn_wrapper > a {
+    font-size: 18px;
+    line-height: 18px;
+    padding: 18px 32px;
+  }
+}
+@media only screen and (max-width: 990px) {
+  .container {
+    
+  }
+
+  .img_top {
+    width: 209px;
+  }
+
+  .logo_top {
+    width: 80px;
+    height: 80px;
+    bottom: -40px;
+  }
+  .logo_top > img {
+    width: 32px;
+    padding-top: 24px;
+  }
+
+  .card_lower_portion {
+    /* background-color: aquamarine; */
+
+    padding-top: 38px;
+    padding-bottom: 25px;
+  }
+
+  .text_all_description {
+    /* background-color: chartreuse; */
+    margin-bottom: 16px;
+  }
+
+  .heading {
+    font-size: 18px;
+    line-height: 45px;
+  }
+
+  .description_line > i {
+    padding-top: 3px;
+  }
+  .line {
+    margin-left: 5px;
+
+    font-size: 14px;
+    line-height: 28px;
+  }
+
+  .dollar {
+    font-size: 34px;
+    line-height: 44px;
+  }
+  .per_month {
+    font-size: 14px;
+    line-height: 42px;
+    /* margin-left: 5px; */
+  }
+
+  .prise_text_wrapper {
+    margin-bottom: 12px;
+  }
+
+  .btn_wrapper {
+  }
+  .btn_wrapper > a {
+    font-size: 16px;
+    line-height: 16px;
+    padding: 16px 25px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .container {
+    
+  }
+
+  .img_top {
+    width: 240px;
+  }
+
+  .logo_top {
+    width: 80px;
+    height: 80px;
+    bottom: -40px;
+  }
+  .logo_top > img {
+    width: 40px;
+    padding-top: 21px;
+  }
+
+  .card_lower_portion {
+    padding-top: 70px;
+  }
+
+  .text_all_description {
+    /* background-color: chartreuse; */
+    margin-bottom: 16px;
+  }
+
+  .heading {
+    font-size: 16px;
+    line-height: 34px;
+  }
+
+  .description_line > i {
+    padding-top: 3px;
+  }
+  .line {
+    margin-left: 5px;
+
+    font-size: 14px;
+    line-height: 28px;
+  }
+
+  .dollar {
+    font-size: 32px;
+    line-height: 34px;
+  }
+  .per_month {
+    font-size: 14px;
+    line-height: 42px;
+    /* margin-left: 5px; */
+  }
+
+  .prise_text_wrapper {
+    /* background-color: coral; */
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+  }
+
+  .btn_wrapper {
+  }
+  .btn_wrapper > a {
+    font-size: 16px;
+    line-height: 16px;
+    padding: 16px 25px;
+  }
+}
+@media only screen and (max-width: 575px) {
+  .container{
+    border-radius: 90px 0 70px 0;
+  }
+  .img_top {
+    width: 90vw;
+  }
+
+  .btn_wrapper > a {
+    font-size: 14px;
+    line-height: 14px;
+  }
+
+  .card_lower_portion {
+    padding-top: 30px;
+    padding-bottom: 20px;
+  }
+}
+@media only screen and (max-width: 426px) {
+}

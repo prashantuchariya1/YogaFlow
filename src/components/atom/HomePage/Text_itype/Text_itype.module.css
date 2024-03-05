@@ -1,0 +1,31 @@
+
+.text_itype{
+    /* font-size: 2.2rem; */
+color: #e1ccad;
+}
+.text_itype + span{
+    /* font-size: 2.2rem; */
+    opacity: 1;
+    -webkit-animation: blink 0.3s infinite;
+    -moz-animation: blink 0.3s infinite;
+    animation: blink 0.3s infinite;
+    animation-direction: alternate;
+    color: #e1ccad;
+}
+@keyframes blink {
+    100% {
+        opacity: 0;
+    }
+}
+
+@-webkit-keyframes blink {
+    100% {
+        opacity: 0;
+    }
+}
+
+@-moz-keyframes blink {
+    100% {
+        opacity: 0;
+    }
+}

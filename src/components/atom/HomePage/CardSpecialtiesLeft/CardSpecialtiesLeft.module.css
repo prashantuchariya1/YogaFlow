@@ -1,0 +1,164 @@
+.container {
+  /* background-color: rgb(164, 196, 129); */
+}
+
+.card_specialties {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.card_text {
+  /* background-color: aqua; */
+  text-align: right;
+
+  width: 230px;
+}
+
+.circle {
+  margin-left: 20px;
+}
+
+.circle > i {
+  height: 76px;
+  width: 76px;
+  background-color: #764979;
+
+  border-radius: 100%;
+
+  text-align: center;
+  padding: 5px;
+  font-weight: 400;
+  font-size: 42px;
+  line-height: 72px;
+  color: white;
+}
+.specialties_name{
+  font-family: 'Playfair Display', serif;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 700;
+  color: #242424;
+  margin-bottom: 6px;
+
+}
+.specialties_paragraph{
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 400;
+  color: #6b6b6b;
+  margin-bottom: 0;
+}
+.text {
+}
+
+.circle2_responsive{
+  display: none;
+}
+
+@media only screen and (max-width: 935px) {
+
+  .card_text {
+    
+    text-align: left;
+  }
+
+  .circle {
+    display:none;
+    
+    
+}
+
+.circle2_responsive{
+  display: block;
+  margin-right: 20px;
+}
+
+.circle2_responsive > i {
+  height: 56px;
+  width: 56px;
+  background-color: #764979;
+
+  border-radius: 100%;
+
+  text-align: center;
+  padding: 5px;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 52px;
+  color: white;
+
+}
+}
+@media only screen and (max-width: 700px) {
+
+
+  
+}
+
+
+
+
+
+
+
+
+/* responsive breakpoints */
+
+
+
+@media only screen and (max-width: 1200px) {
+  
+  .specialties_name{
+    font-family: 'Playfair Display', serif;
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 700;
+    color: #242424;
+    margin-bottom: 6px;
+
+  }
+  .specialties_paragraph{
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #6b6b6b;
+    margin-bottom: 0;
+  }
+
+  
+
+}
+@media only screen and (max-width: 990px) {
+  
+  .specialties_name{
+
+  }
+  .specialties_paragraph{
+    
+  }
+}
+@media only screen and (max-width: 768px) {
+  
+  
+  .specialties_name{
+
+  }
+  .specialties_paragraph{
+    
+  }
+}
+@media only screen and (max-width: 575px) {
+  
+  .specialties_name{
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .specialties_paragraph{
+    font-size: 14px;
+    line-height: 18px;
+  }
+}
+@media only screen and (max-width: 426px) {
+  
+}

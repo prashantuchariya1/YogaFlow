@@ -1,0 +1,252 @@
+.Profile {
+  background-image: url("https://res.cloudinary.com/do6tjvges/image/upload/v1675086830/docs/banner_section_background_qrv8qq.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.navbar_wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.container {
+  width: 100vw;
+  /* height: 100vh; */
+  /* display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif; */
+
+  /* border: 2px solid rgb(21, 126, 35); */
+  
+    padding: 60px 0 130px 0;
+  
+}
+
+.flex_Wrapper {
+  display: flex;
+  /* flex-wrap: wrap; */
+  justify-content: center;
+  width: 80%;
+  margin: 0 auto;
+  gap: 20px;
+}
+
+.col_1 {
+  flex: 1;
+  /* border: 2px solid yellow; */
+  max-width: 50%;
+  height: auto; /* Fixed height, or based on content */
+  background-image: url('https://res.cloudinary.com/do6tjvges/image/upload/v1675283273/docs/get_in_touch_image_tc6y7d.jpg');
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+    
+}
+
+.col_2 {
+  flex: 1;
+  /* border: 2px solid yellow; */
+  background-color:#ffe4c4;
+  padding: 20px;
+  max-width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  box-sizing: border-box;
+  /* width:fit-content; */
+  
+  
+}
+.col_2 > h2 {
+  font-family: "Playfair Display", serif;
+  font-size: 30px;
+  line-height: 55px;
+  font-weight: 700;
+  margin-bottom: 18px;
+  color: #242424;
+}
+
+/* .profile_wrapper{
+    
+    
+}
+.profile_wrapper img{
+    width: 100%;
+    border-radius: 200px 0 200px 0;
+} */
+.userDetails {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* background-color: white; */
+  /* width: 500px; */
+  width:fit-content;
+  
+  /* border: 2px solid red; */
+}
+
+.row{
+display: flex;
+flex-direction: row;
+padding: 10px 0;
+}
+
+.label{
+    font-weight: 600;
+    font-size: 18px;
+    color: #601e64;
+    font-family: 'Playfair Display', serif;
+    
+}
+.data{
+  /* color: red; */
+  font-size: 18px;
+  color: #02434d;
+}
+
+.pno{
+    padding-left: 10px;
+}
+.add{
+    padding-left: 12px;
+}
+.birthday{
+    padding-left: 10px;
+}
+.gender{
+    padding-left: 20px;
+}
+
+.row1{
+    
+}
+.row2{
+
+}
+.row3{
+
+}
+.row4{
+
+}
+
+
+
+
+.cardWrapper {
+  /* border: 2px solid rgb(49, 21, 126); */
+}
+
+
+.btn_wrapper > button {
+  font-size: 22px;
+  line-height: 22px;
+  font-weight: 500;
+  padding: 24px 40px;
+  text-align: center;
+  color: white;
+  display: inline-block;
+  background-color: #764979;
+  border-radius: 35px 0px 35px 0px;
+  transition: all 0.3s ease-in-out;
+  outline: none;
+  border: none;
+  overflow: hidden;
+  margin-bottom: 10px;
+  margin-top: 42px;
+
+  
+}
+
+
+@media (max-width: 768px) { /* Adjust the breakpoint as needed */
+  .flex_Wrapper {
+    flex-direction: column-reverse;
+    align-items: center; /* This will stack .col_1 and .col_2 vertically and center them */
+    width: 80%;
+  }
+  
+  .col_1, .col_2 {
+    max-width: 100%; /* Each column takes full width */
+    /* min-height: 300px;
+    min-width: 300px; */
+
+    
+  }
+
+  .col_1 {
+    min-height: 300px; /* Ensures that the div doesn't collapse */
+    min-width: 300px;
+  }
+
+  
+}
+
+
+/* 
+
+
+@media only screen and (max-width: 1200px) {
+  
+  .profile_wrapper{
+    width: 450px;
+}
+.userDetails {
+  
+  width: 450px;
+  
+}
+  
+
+}
+
+
+
+@media only screen and (max-width: 990px) {
+  
+  .profile_wrapper{
+    width: 350px;
+}
+.userDetails {
+  
+  width: 350px;
+  
+}
+  
+
+  
+} 
+@media only screen and (max-width: 768px) {
+  
+  .flex_Wrapper {
+    display: flex;
+    flex-direction:column-reverse;
+    align-items: center;
+    
+    
+  }
+  .profile_wrapper{
+    background-color:#ffe4c4;
+    width: 350px;
+  }
+  
+} 
+@media only screen and (max-width: 575px) {
+ 
+
+
+  
+} 
+@media only screen and (max-width: 426px) {
+  
+
+  
+} 
+ */
