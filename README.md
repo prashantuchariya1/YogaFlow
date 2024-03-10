@@ -18,6 +18,7 @@ This project is a Yoga center platform featuring a fully responsive front end bu
 ## Images
 
 ![Screenshot of the application](images/1.png)
+![Screenshot of the application](images/4.png)
 ![Screenshot of the application](images/2.png)
 ![Screenshot of the application](images/3.png)
 
